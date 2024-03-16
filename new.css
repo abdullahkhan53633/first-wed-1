@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* navbar  */
+
+#navbox {
+    height: 70px;
+    background: linear-gradient(90deg, rgb(6, 30, 102), rgb(33, 137, 100));
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-pic {
+    border-radius: 30PX;
+    margin-left: 40px;
+}
+
+#navbar-chart {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-right: 10px;
+}
+
+.navchart {
+    border: 0px solid;
+    list-style-type: none;
+    color: white;
+}
+
+#download {
+    border: 5px solid rgb(36, 179, 129);
+    background-color: rgb(36, 179, 129);
+    border-radius: 10px;
+}
+
+#navbar-chart li:hover {
+    background: linear-gradient(90deg, rgb(22, 33, 68), rgb(58, 213, 156));
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 3px solid linear-gradient(90deg, rgb(22, 33, 68), rgb(58, 213, 156));
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+/* second blue box */
+#second-poortion {
+    height: 550px;
+    background: linear-gradient(90deg, rgb(6, 30, 102), rgb(33, 137, 100));
+}
+
+#second-poortion-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+#pic2 {
+    margin-right: 180px;
+    margin-top: 90px;
+    height: 300px;
+    border-radius: 20px;
+    width: 400PX;
+}
+
+#heading-second-box {
+    color: rgb(70, 233, 176);
+    margin-left: 60px;
+    margin-top: 80px;
+    font-size: 80px;
+}
+
+#text-second-box {
+    color: white;
+    margin-left: 60px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+
+#button1 {
+    margin-left: 60px;
+    margin-top: 35px;
+    height: 50px;
+    width: 280px;
+    background: linear-gradient(110deg, rgb(6, 30, 102), rgb(21, 49, 132));
+    color: white;
+    font-size: 18px;
+}
+
+#button1:hover {
+    background: linear-gradient(90deg, rgb(59, 80, 143), rgb(18, 140, 97));
+    font-size: 20px;
+
+
+}
+
+/* third white box  */
+
+#third-portin-box {
+    height: 260px;
+    background-color: rgb(246, 243, 240);
+}
+
+#third-portion-heading {
+    color: rgb(157, 157, 157);
+    text-align: center;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+#pic3 {
+    margin-top: 40px;
+    margin-left: 260px;
+    height: 100px;
+}
+
+/* FOURTH WHITE PART  */
+
+#fourth-white-part {
+    height: 500px;
+    background-color: white;
+}
+
+#pic4 {
+    margin-top: 20px;
+    margin-left: 12%;
+    width: 1200px;
+}
+
+/* FIFTH BLUE PART */
+
+#fifth-blue-part {
+    height: 830px;
+    background-color: rgb(0, 0, 154);
+}
+
+#heading4 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+
+#heading4-in {
+    color: rgb(70, 233, 176);
+}
+
+#pics-portion-four {
+    display: flex;
+    gap: 60px;
+    margin-top: 60px;
+    justify-content: center;
+}
+#PIC51:hover { border: 14PX cyan;  border-style: double ; }
+#PIC52:hover { border: 14PX   cyan;  border-style:double ; }
+#PIC53:hover { border: 14PX  cyan ;  border-style:double ; }
+
+/* last-portion */
+
+#last-portion {
+    height: 600px;
+    background-color: aliceblue;
+}
+
+#pic5 {
+    margin-left: 150px;
+    width: 1300px;
+}
